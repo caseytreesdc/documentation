@@ -1,0 +1,16 @@
+# Accessibility Notes
+
+1. Missing some alt texts, I can spend an afternoon updating media in the CMS [WCAG 1.1.1 - Level A](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)
+2. Orange to White contrast is not enough [WCAG 1.4.3 - Level AA](https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum)
+3. Possible Skip to Main Content: [WCAG 2.4.1 - Level A](https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks)
+   1. Tab order is very tough to navigate, we have to go through every menu option to get to the goods!
+4. Visible Focus: [WCAG 2.4.7 - Level AA](https://www.w3.org/WAI/WCAG21/quickref/#focus-visible)
+5. Links with regard to low color vis: [WCAG 2.4.1 - Level A](https://www.w3.org/WAI/WCAG21/quickref/#use-of-color)
+   1. should have other than just a different color to represent itself (an underline)
+   2. should have something other than change of color on hover/focus as well (underline is thicker, background highlighted)
+   3. social links, SVG links, image links that aren't or don't have text need
+      1. `<svg><title>Facebook</title></svg>` or 
+      2. `<img alt="Casey Trees Home"/>`
+6. Play Pause option for video, possible audio description: [WCAG 1.2.1 - Level AA](https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded)
+7. Language Access
+   1. Spanish version/translation of key elements by professionals
